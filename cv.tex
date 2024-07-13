@@ -17,188 +17,188 @@
 \defaultfontfeatures{LetterSpace=2.5}
 
 \hypersetup{
-    unicode=true,
-    colorlinks=true,
-    urlcolor=black,
-}
+	unicode=true,
+	colorlinks=true,
+	urlcolor=black,
+	}
 
-\setmainfont{ArialMT}[
-    Path=./fonts/,
-    Extension = .ttf,
-    UprightFont=*-Light,
-    BoldFont=*-Medium,
-    ItalicFont=*-Italic,
-    ItalicFeatures={
-        SmallCapsFont=*-Italic,
-    },
-    BoldFeatures={
-        SmallCapsFont=*-Medium,  
-    },
-    SmallCapsFont=*-Medium,
-    ]
+	\setmainfont{ArialMT}[
+		Path=./fonts/,
+		Extension = .ttf,
+		UprightFont=*-Light,
+		BoldFont=*-Medium,
+		ItalicFont=*-Italic,
+		ItalicFeatures={
+			SmallCapsFont=*-Italic,
+		},
+		BoldFeatures={
+			SmallCapsFont=*-Medium,  
+		},
+		SmallCapsFont=*-Medium,
+	]
 
-\begin{document}
-
-
-\begin{multicols}{3}
-    \headerSection{\badge{black}{\Large {\color{white}\textbf{Fullstack Developer}}}}
-    \columnbreak
-    \headerSection{\xhrulefill{black}{0.6em}}
-    \columnbreak
-    \headerSection{\xhrulefill{black}{0.6em} }
-\end{multicols}
-
-\begin{multicols}{2}
-    \headerSection{\Huge \textbf{Viktor \newline Nagy}}
-    \cvParagraph{\href{tel:00000000000}{+421 951 091 019} \newline \href{mailto:viktor.nagy1995@gmail.com}{viktor.nagy1995@gmail.com} \newline \href{https://github.com/nagy135}{github.com/nagy135}}
-
-    \columnbreak
-    \begin{spacing}{1.5}
-        I am very interested in new technologies, watching conferences and I am always open to try something new. I use minimal linux distro for many years and one of my favorite free time activity is writing scripts that make my life easier (why spend 5 minutes on a task you can automate in 5 hours), some of those are public (https://github.com/nagy135). I really like idea of open-source, if i use some tool and i miss some feature, I m going to try to implement it. Enjoy using coding approach everywhere possible, this CV is written in tex (https://github.com/nagy135/cv-tex)
-    \end{spacing}
-\end{multicols}
-
-\vspace{1em}
-\setlength{\columnsep}{1cm}
-
-\cvSection{Experience}
-\begin{adjustwidth}{2em}{0em}
-
-\positionAndCompanyLine{BE developer}{365.bank}{2022 - 2024}
-\project{Bank rewrite in aws}{internal; pre-production; maintenance}
-\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
-\begin{itemize}
-    \item coding: 80\% development / 20\% sharing aws knowledge
-    \item responsibility for delivering the sprint goal
-    \item decomposing business requirements into technical tasks
-    \item collectively increasing the competences of the team (meetings to share knowledge)
-\end{itemize}
-\techStackList{Typescript, nodejs, nestjs, docker, AWS (lambda, stepfunctions, etc.), Jest., gitlab-ci, terraform, aws-cdk, ...}
-\vspace{0.5em}
-
-\positionAndCompanyLine{BE/FE developer}{01people}{2020 - 2022}
-\project{Small team projects}{communicating with client; development; deploy; maintenance; organizing juniors; scripting}
-\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
-\begin{itemize}
-    \item coding: 90\% development / 10\% project management
-    \item responsibility for every part of the process
-    \item buying server, setting server up
-    \item writing BE code
-		\item writing 50-70\% FE code, help from FE juniors
-    \item maintaining done projects, managing my own time to find space for features in old projects
-\end{itemize}
-\techStackList{Typescript, nodejs, jest, docker, Next.js, styled-components, some PHP (laravel)}
-\vspace{0.5em}
-
-\positionAndCompanyLine{BE/FE developer}{smartbase}{2019 - 2020}
-\project{Solo projects with global core}{communicating with client; development; deploy; maintenance; work on collective codebase}
-\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
-\begin{itemize}
-    \item coding: 50\% code project codebase / 40\% code core codebase / 10\% talks with clients
-    \item coding django solution for E-commerce
-    \item writing BE code
-		\item writing FE code, vue (mostly fixing bugs)
-\end{itemize}
-\techStackList{Python, django, vue.js, docker, shell scripting}
-\vspace{0.5em}
-
-\positionAndCompanyLine{BE/FE developer}{VipTel}{2018 - 2019}
-\project{Part time job, internal tools}{writing BE projects to query tele data; work on in-browser telephone}
-\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
-\begin{itemize}
-    \item coding: 70\% code laravel and django codebase / 30\% code vue.js browser phone
-		\item some lua scripting
-\end{itemize}
-\techStackList{Python, django, vue.js, shell scripting, lua}
-\vspace{0.5em}
-
-\positionAndCompanyLine{BE developer}{Positive s.r.o.}{2017 - 2018}
-\project{Part time job, insurance calculator}{writing next features and integrations to insurance vendors}
-\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
-\begin{itemize}
-    \item coding: 90\% reading docs and writing new integrations / 10\% new features
-		\item unified calculator multistage form sending requests to multiple vendors and showing offers and performing insurance buy
-\end{itemize}
-\techStackList{PHP, custom framework, javascript}
-\vspace{0.5em}
-
-\positionAndCompanyLine{BE developer}{Municipal Office Karlova Ves}{2016 - 2017}
-\project{Part time job, office internal tools}{writing internal organization tools + tech support}
-\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
-\begin{itemize}
-    \item coding: 90\% writing tools to ease work done by office employees / 10\% tech support, setup computers, lay cables
-		\item most of the time worked on project to manage invoices done by office and passing data from them to different external tools
-\end{itemize}
-\techStackList{PHP, custom framework, javascript, shell scripting}
-\vspace{0.5em}
-
-\positionAndCompanyLine{waiter}{Work and Travel}{2015 - 2015}
-\project{Summer camp}{serving food, cleaning, organizing free time activities}
-\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
-\begin{itemize}
-    \item spent 3 months alone in USA
-		\item improved english, learned to work in team, traveled around USA
-\end{itemize}
-\techStackList{people skills, solving problems alone, english}
-\vspace{0.5em}
-
-\vspace{1em}
-\end{adjustwidth}
-
-\cvSection{Education}
-\begin{adjustwidth}{2em}{0em}
+	\begin{document}
 
 
-\positionAndCompanyLine{Language/Mathematics focused gymnazium}{Gymnazium Tilgnerova 14}{2013}
-\positionAndCompanyLine{Master of applied informatics}{FMFI UK, Faculty of Mathematics, Physics and Informatics of Comenius University}{2019}
+	\begin{multicols}{3}
+		\headerSection{\badge{black}{\Large {\color{white}\textbf{Fullstack Developer}}}}
+		\columnbreak
+		\headerSection{\xhrulefill{black}{0.6em}}
+		\columnbreak
+		\headerSection{\xhrulefill{black}{0.6em} }
+	\end{multicols}
 
-\end{adjustwidth}
-\vspace{1em}
+	\begin{multicols}{2}
+		\headerSection{\Huge \textbf{Viktor \newline Nagy}}
+		\cvParagraph{\href{tel:00000000000}{+421 951 091 019} \newline \href{mailto:viktor.nagy1995@gmail.com}{viktor.nagy1995@gmail.com} \newline \href{https://github.com/nagy135}{github.com/nagy135}}
 
-    \cvSection{Technical Skills}
-    \begin{adjustwidth}{2em}{0em}
+		\columnbreak
+		\begin{spacing}{1.5}
+			I am very interested in new technologies, watching conferences and I am always open to try something new. I use minimal linux distro for many years and one of my favorite free time activity is writing scripts that make my life easier (why spend 5 minutes on a task you can automate in 5 hours), some of those are public (https://github.com/nagy135). I really like idea of open-source, if i use some tool and i miss some feature, I m going to try to implement it. Enjoy using coding approach everywhere possible, this CV is written in tex (https://github.com/nagy135/cv-tex)
+		\end{spacing}
+	\end{multicols}
 
-		\positionAndCompanyLine{}{Typescript}{advanced}
-		\begin{itemize}
-			\item nodejs, nestjs, jest, AWS (lambda, stepfunctions, etc.), aws-cdk, ...
-			\item nextjs, react, vue.js
-		\end{itemize}
-  \vspace{0.5em}
+	\vspace{1em}
+	\setlength{\columnsep}{1cm}
 
-		\positionAndCompanyLine{}{PHP}{advanced}
-		\begin{itemize}
-			\item laravel, symphony, nette, a lot of non\-framework work
-		\end{itemize}
-  \vspace{0.5em}
+	\cvSection{Experience}
+	\begin{adjustwidth}{2em}{0em}
 
-		\positionAndCompanyLine{}{Python}{advanced}
-		\begin{itemize}
-			\item django, primary language at university, written thesis in it (computer vision in astronomy)
-		\end{itemize}
-  \vspace{0.5em}
+		\positionAndCompanyLine{BE developer}{365.bank}{2022 - 2024}
+		\project{Bank rewrite in aws}{internal; pre-production; maintenance}
+		\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
+			\begin{itemize}
+				\item coding: 80\% development / 20\% sharing aws knowledge
+				\item responsibility for delivering the sprint goal
+				\item decomposing business requirements into technical tasks
+				\item collectively increasing the competences of the team (meetings to share knowledge)
+			\end{itemize}
+			\techStackList{Typescript, nodejs, nestjs, docker, AWS (lambda, stepfunctions, etc.), Jest., gitlab-ci, terraform, aws-cdk, ...}
+			\vspace{0.5em}
 
-		\positionAndCompanyLine{}{React / Next.js}{skillful}
-		\begin{itemize}
-			\item prefer to use next.js whenever possible, like to use server side rendering
-			\item my github also contains some projects using next.js
-		\end{itemize}
-  \vspace{0.5em}
+			\positionAndCompanyLine{BE/FE developer}{01people}{2020 - 2022}
+			\project{Small team projects}{communicating with client; development; deploy; maintenance; organizing juniors; scripting}
+			\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
+				\begin{itemize}
+					\item coding: 90\% development / 10\% project management
+					\item responsibility for every part of the process
+					\item buying server, setting server up
+					\item writing BE code
+					\item writing 50-70\% FE code, help from FE juniors
+					\item maintaining done projects, managing my own time to find space for features in old projects
+				\end{itemize}
+				\techStackList{Typescript, nodejs, jest, docker, Next.js, styled-components, some PHP (laravel)}
+				\vspace{0.5em}
 
-		\positionAndCompanyLine{}{Linux}{advanced}
-		\begin{itemize}
-			\item been using linux for 10 years, minimal distro, writing scripts, setting up servers
-			\item using linux as main OS, writing scripts to automate tasks
-			\item my journey: ubuntu => manjaro => arch => nixos
-		\end{itemize}
-  \end{adjustwidth}
-     \cvSection{Languages}
-    \begin{adjustwidth}{2em}{0em}
-    Slovak: Native language
-    \newline
-    English: Advanced (C1)
-    \newline
-    German: Beginner (A1)
-    \end{adjustwidth}
+				\positionAndCompanyLine{BE/FE developer}{smartbase}{2019 - 2020}
+				\project{Solo projects with global core}{communicating with client; development; deploy; maintenance; work on collective codebase}
+				\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
+					\begin{itemize}
+						\item coding: 50\% code project codebase / 40\% code core codebase / 10\% talks with clients
+						\item coding django solution for E-commerce
+						\item writing BE code
+						\item writing FE code, vue (mostly fixing bugs)
+					\end{itemize}
+					\techStackList{Python, django, vue.js, docker, shell scripting}
+					\vspace{0.5em}
+
+					\positionAndCompanyLine{BE/FE developer}{VipTel}{2018 - 2019}
+					\project{Part time job, internal tools}{writing BE projects to query tele data; work on in-browser telephone}
+					\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
+						\begin{itemize}
+							\item coding: 70\% code laravel and django codebase / 30\% code vue.js browser phone
+							\item some lua scripting
+						\end{itemize}
+						\techStackList{Python, django, vue.js, shell scripting, lua}
+						\vspace{0.5em}
+
+						\positionAndCompanyLine{BE developer}{Positive s.r.o.}{2017 - 2018}
+						\project{Part time job, insurance calculator}{writing next features and integrations to insurance vendors}
+						\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
+							\begin{itemize}
+								\item coding: 90\% reading docs and writing new integrations / 10\% new features
+								\item unified calculator multistage form sending requests to multiple vendors and showing offers and performing insurance buy
+							\end{itemize}
+							\techStackList{PHP, custom framework, javascript}
+							\vspace{0.5em}
+
+							\positionAndCompanyLine{BE developer}{Municipal Office Karlova Ves}{2016 - 2017}
+							\project{Part time job, office internal tools}{writing internal organization tools + tech support}
+							\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
+								\begin{itemize}
+									\item coding: 90\% writing tools to ease work done by office employees / 10\% tech support, setup computers, lay cables
+									\item most of the time worked on project to manage invoices done by office and passing data from them to different external tools
+								\end{itemize}
+								\techStackList{PHP, custom framework, javascript, shell scripting}
+								\vspace{0.5em}
+
+								\positionAndCompanyLine{waiter}{Work and Travel}{2015 - 2015}
+								\project{Summer camp}{serving food, cleaning, organizing free time activities}
+								\begin{flushleft}{\badge{lavenderBlue}{Responsibilities}}\end{flushleft}
+									\begin{itemize}
+										\item spent 3 months alone in USA
+										\item improved english, learned to work in team, traveled around USA
+									\end{itemize}
+									\techStackList{people skills, solving problems alone, english}
+									\vspace{0.5em}
+
+									\vspace{1em}
+			\end{adjustwidth}
+
+			\cvSection{Education}
+			\begin{adjustwidth}{2em}{0em}
 
 
-\end{document}
+				\positionAndCompanyLine{Language/Mathematics focused gymnazium}{Gymnazium Tilgnerova 14}{2013}
+				\positionAndCompanyLine{Master of applied informatics}{FMFI UK, Faculty of Mathematics, Physics and Informatics of Comenius University}{2019}
+
+			\end{adjustwidth}
+			\vspace{1em}
+
+			\cvSection{Technical Skills}
+			\begin{adjustwidth}{2em}{0em}
+
+				\positionAndCompanyLine{}{Typescript}{advanced}
+				\begin{itemize}
+					\item nodejs, nestjs, jest, AWS (lambda, stepfunctions, etc.), aws-cdk, ...
+					\item nextjs, react, vue.js
+				\end{itemize}
+				\vspace{0.5em}
+
+				\positionAndCompanyLine{}{PHP}{advanced}
+				\begin{itemize}
+					\item laravel, symphony, nette, a lot of non\-framework work
+				\end{itemize}
+				\vspace{0.5em}
+
+				\positionAndCompanyLine{}{Python}{advanced}
+				\begin{itemize}
+					\item django, primary language at university, written thesis in it (computer vision in astronomy)
+				\end{itemize}
+				\vspace{0.5em}
+
+				\positionAndCompanyLine{}{React / Next.js}{skillful}
+				\begin{itemize}
+					\item prefer to use next.js whenever possible, like to use server side rendering
+					\item my github also contains some projects using next.js
+				\end{itemize}
+				\vspace{0.5em}
+
+				\positionAndCompanyLine{}{Linux}{advanced}
+				\begin{itemize}
+					\item been using linux for 10 years, minimal distro, writing scripts, setting up servers
+					\item using linux as main OS, writing scripts to automate tasks
+					\item my journey: ubuntu => manjaro => arch => nixos
+				\end{itemize}
+			\end{adjustwidth}
+			\cvSection{Languages}
+			\begin{adjustwidth}{2em}{0em}
+				Slovak: Native language
+				\newline
+				English: Advanced (C1)
+				\newline
+				German: Beginner (A1)
+			\end{adjustwidth}
+
+
+		\end{document}
